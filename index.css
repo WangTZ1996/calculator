@@ -1,0 +1,50 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.middle{
+	position: absolute; 
+	width: 600px;
+	height: 300px;
+	top: 50%;
+	left: 50%;
+	margin-top: -150px;
+	margin-left: -300px;
+	background: #84c1ff;
+	border: 2px solid #84c1ff;
+	border-radius: 10px; 
+}
+.screen{
+	position: relative;
+	margin: 10px;
+	border: 2px solid #d0d0d0;
+	height: 50px;
+	background: #ddd;
+}
+.keyborad{
+	position: relative;
+	margin: 10px;
+	border: 2px solid #000;
+	height: 210px;
+	background: #fff;
+}
+li{
+	float: left;
+	width: 111px;
+	height: 48px;
+	border: 2px solid #ccc;
+	font-size: 25px;
+	line-height: 48px;
+	text-align: center;
+}
+li:hover{
+	background: #bbb;
+	cursor: pointer;
+}
+input{
+	width: 570px;
+	height: 48px;
+	font-size: 25px;
+	text-align: right;
+}
